@@ -1,17 +1,19 @@
 
 #home-page{
-    background-color: rgb(153, 153, 185);
+    background-color: rgb(153, 166, 185);
     text-align: center;
+    display:grid;
+    grid-template-columns: 1em 1em;
 }
 
 #top-left-img{
     padding:5px;
-
+    grid-column:1/2;
 }
 
 #name-heading{
-    color:blueviolet;
+    color:rgb(42, 173, 152);
     font-family: 'Courier New', Courier, monospace;
-    
+    grid-column:2/3;
 }
 
