@@ -2,6 +2,9 @@
 #home-page{
     background-color: rgb(153, 166, 185);
     text-align: center;
+}
+
+#header{
     display:grid;
     grid-template-columns: 1em 1em;
 }
