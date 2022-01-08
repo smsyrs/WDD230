@@ -1,22 +1,26 @@
 
 #home-page{
-    background-color: rgb(153, 166, 185);
+    background-color: rgb(121, 74, 64);
     text-align: center;
 }
 
 #header{
     display:grid;
-    grid-template-columns: 1em 1em;
+    background-color:rgb(143, 174, 220)
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
 }
 
 #top-left-img{
     padding:5px;
     grid-column:1/2;
+    grid-row:1/4;
 }
 
 #name-heading{
-    color:rgb(42, 173, 152);
+    color:rgb(136, 152, 98);
     font-family: 'Courier New', Courier, monospace;
+    grid-column:2/3;
     grid-column:2/3;
 }
 
