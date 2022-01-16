@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Work+Sans:wght@300&display=swap');
+
+header{
+    background-color: #253237;
+    color:#D2DAD8;
+    text-align: center;
+    margin:auto;
+    font-family: 'Work Sans', 'sans-serif';
+}
+
+main{
+    display:grid;
+    text-align: center;
+    grid-template-rows:auto auto auto;
+    font-family:'Inter', 'sans-serif';
+}
+
+#tenable{
+    grid-row: 1/2;
+    display:grid;
+    grid-template-rows: auto auto auto;
+}
+
+#tenable-header{
+    grid-row: 1/2;
+}
+
+h3{
+    background-color:#FFE047;
+    color:#253237;
+}
+img {
+    grid-row:2/3;
+    max-height:100%;
+    max-width:100%;
+    align-items: center;
+
+}
+
+footer{
+    text-align: center;
+}

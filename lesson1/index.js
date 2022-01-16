@@ -9,6 +9,6 @@ const para = document.createElement('p');
 const node = document.createTextNode(`Last updated: ${document.lastModified}`)
 para.appendChild(node);
 
-const element = document.getElementById("home-page-footer");
+const element = document.querySelector("footer");
 element.appendChild(paragraph);
 element.appendChild(para);

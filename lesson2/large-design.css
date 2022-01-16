@@ -1,0 +1,14 @@
+@media only screen and (min-width:64em){
+    main{
+        grid-template-columns: auto auto auto;
+    }
+
+    #reddit{
+        grid-column:3/4;
+        padding-left:5px;
+    }
+
+    #github{
+        padding-right:5px;
+    }
+}
