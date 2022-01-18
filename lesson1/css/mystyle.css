@@ -11,7 +11,7 @@
 
 #header{
     display:grid;
-    background-color:#6E8782;
+    background-color:#849A96;
     grid-template-columns: auto auto;
     grid-template-rows: 70px 70px 70px;
     color:#000000;
@@ -25,7 +25,6 @@
 #top-left-img{
     grid-column:1/2;
     grid-row:1/4;
-    align-items: center;
     max-width:100%;
     max-height:100%;
 }
@@ -37,11 +36,13 @@
 }
 
 h2{
-    background-color:#889696;
+    background-color:#939F9F;
+    padding:5px;
 }
 
 footer{
-    background-color:#6E8782 ;
+    background-color:#849A96 ;
+    padding:1px;
 }
 
 main{
