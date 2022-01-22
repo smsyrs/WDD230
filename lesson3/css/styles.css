@@ -2,31 +2,41 @@ body{
     max-width: 1080px;
     margin: auto;
     padding: 5px;
+    background-color: #90B694;
 }
 
-header{
-    display:grid;
-    grid-template-columns: 30% 70%;
+.content{
+    background-color: #FFFFFF;
+    padding: 5px;
+    font-family:'Questrial', "sans-serif";
+    margin-top: -5px;
+}
+
+#homepage,
+#type,
+#color{
+    text-align: center;
 }
 img{
     max-width: 100%;
     max-height:100%;
 }
-#logo{
-    grid-column: 1/2;
-    grid-row:1/2;
+
+header{
+    text-align: center;
+    background-color:#CEC3E9;
+    font-family: "IBM Plex Sans", "sans-serif";
 }
 
-#title{
-    grid-column:2/3;
-    margin:auto;
-    text-align: center;
+#logo-img{
+    max-width:50%;
 }
 
 nav{
     display:flex;
     flex-flow:column;
     text-align: center;
+    background-color: #011936;
 }
 
 nav div{
@@ -36,6 +46,7 @@ nav div{
 nav a{
     display: block;
     padding:15px;
+    color:#FFFFFF;
 }
 
 #IBM{
@@ -45,6 +56,10 @@ nav a{
 
 #questrial{
     font-family:'Questrial', "sans-serif";
+}
+
+footer{
+    text-align: center;
 }
 
 @media only screen and (min-width:32.53em){
