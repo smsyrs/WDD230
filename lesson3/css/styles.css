@@ -1,0 +1,54 @@
+body{
+    max-width: 1080px;
+    margin: auto;
+    padding: 5px;
+}
+
+header{
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+img{
+    max-width: 100%;
+    max-height:100%;
+}
+#logo{
+    grid-column: 1/2;
+    grid-row:1/2;
+}
+
+#title{
+    grid-column:2/3;
+    margin:auto;
+    text-align: center;
+}
+
+nav{
+    display:flex;
+    flex-flow:column;
+    text-align: center;
+}
+
+nav div{
+    flex: 1 1 auto;
+}
+
+nav a{
+    display: block;
+    padding:15px;
+}
+
+#IBM{
+    font-family: "IBM Plex Sans", "sans-serif";
+    
+}
+
+#questrial{
+    font-family:'Questrial', "sans-serif";
+}
+
+@media only screen and (min-width:32.53em){
+    nav{
+        flex-direction: row;
+    }
+}
