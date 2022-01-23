@@ -65,7 +65,8 @@ footer{
 
 #palette{
     border:5px solid #000000;
-    
+    background-color: #011936;
+    color:#FFFFFF;
 }
 
 @media only screen and (min-width:32.53em){
