@@ -1,0 +1,80 @@
+body{
+    max-width:1080px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    background-color: #90B694;
+}
+header{
+    display:grid;
+    grid-template-rows: auto auto;
+    background-color: #CEC3E9;
+    font-family: "IBM Plex Sans", "sans-serif";
+}
+#logo{
+    grid-row: 1/2;
+
+    max-width:30%;
+    margin:auto;
+}
+#name{
+    grid-row:2/3;
+
+}
+#date{
+    padding-bottom: 10px;
+}
+
+
+nav{
+    background-color: #011936;
+}
+.navigation{
+    list-style: none;
+}
+.navigation li:first-child{
+    display:block;
+}
+.navigation li{
+    display:none;
+}
+
+.navigation a{
+    display:block;
+    color:#FFFFFF;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navigation a.ham::before{
+    content:"Menu";
+}
+
+.responsive li{
+    display:block;
+}
+
+.responsive a.ham::before{
+    content:"Close ";
+}
+
+footer{
+    padding-top: 10px;
+    background-color: #011936;
+    color:#FFFFFF;
+}
+
+div{
+    border:1px solid #000000;
+    padding:2px;
+}
+
+h3,
+h4{
+    font-family:'Questrial', "sans-serif";
+}
+#content{
+    border: none;
+    background-color: #FFFFFF;
+}
