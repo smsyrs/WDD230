@@ -7,27 +7,40 @@ body{
 }
 header{
     display:grid;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     background-color: #CEC3E9;
     font-family: "IBM Plex Sans", "sans-serif";
 }
 #logo{
+    grid-column: 1/2;
     grid-row: 1/2;
-
     max-width:30%;
     margin:auto;
 }
-#name{
-    grid-row:2/3;
 
-}
 #date{
     padding-bottom: 10px;
+    grid-column:1/5;
 }
+
+#facebook{
+    grid-column: 3/4;
+}
+
+#name{
+    grid-column:2/3;
+    display:grid;
+    grid-template-rows: auto auto;
+}
+
+
 
 
 nav{
+    grid-column: 4/5;
     background-color: #011936;
+    margin: auto;
 }
 .navigation{
     list-style: none;
@@ -45,6 +58,7 @@ nav{
     font-size: clamp(1rem, 2vmin, 1.5rem);
     text-decoration: none;
     transition: 0.5s;
+
 }
 
 .navigation a.ham::before{
@@ -67,7 +81,6 @@ footer{
 
 div{
     border:1px solid #000000;
-    padding:2px;
 }
 
 h3,
