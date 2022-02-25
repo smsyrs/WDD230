@@ -1,0 +1,50 @@
+body{
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+}
+
+:root{
+    --back: #a9e5bb;
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: #F7B32B;
+	--zebra: #fcf6b1;
+}
+
+table{
+    margin:auto;
+    border: thin solid var(--border);
+    border-collapse: collapse;
+}
+
+tr:first-child th{
+    background-color: var(--back) ;
+}
+
+th, td{
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th{
+    background-color: var(--back2);
+}
+
+tbody tr:nth-child(even){
+    background-color: var(--zebra);
+}
+
+tbody tr:nth-child(odd){
+    background-color: var(--shadow);
+}
+
+tfoot{
+    background-color: var(--back);
+}
+
+#aboveGoal{
+    background-color: var(--back);
+}

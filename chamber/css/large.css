@@ -1,0 +1,94 @@
+@media only screen and (min-width:64em){
+    header{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #completeLogo{
+        grid-column: 1/2;
+        border: none;
+    }
+
+    nav{
+        grid-column: 2/3;
+        grid-row:1/2;
+        display:flex;
+        flex-flow: row;
+    }
+
+    #date{
+        grid-row:2/3;
+    }
+
+    .navigation li{
+        display:flex;
+    }
+    .navigation a{
+        display:flex;
+        flex-flow:row ;
+    }
+    .navigation a.ham::before{
+        display:none;
+    }
+
+    #linkedin{
+        grid-column: 3/4;
+        grid-row:1/2;
+    }
+
+
+    main{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #event{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #weather{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #join{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        display:grid;
+    }
+
+    #hero{
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+
+    #press{
+        grid-row: 3/4;
+        grid-column: 2/4;
+    }
+
+    #spotlights{
+        grid-row: 1/4;
+        grid-column: 4/5;
+        display:grid;
+        grid-template-rows:auto auto auto;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    #spot1{
+        grid-row: 1/2;
+    }
+
+    #spot2{
+        grid-row:2/3;
+        grid-column: 1/2;
+    }
+
+    #spot3{
+        grid-row:3/4;
+        display:grid;
+    }
+}

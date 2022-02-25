@@ -3,7 +3,7 @@ const fullDate = new Intl.DateTimeFormat("en-US", {dateStyle:"full"}).format(dat
 document.querySelector("#date").textContent=fullDate;
 
 document.querySelector("#year").textContent = date.getFullYear();
-document.querySelector("#footer3").textContent= document.lastModified;
+document.querySelector("#footer3").innerHTML= document.lastModified;
 
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation');
