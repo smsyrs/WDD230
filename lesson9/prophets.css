@@ -1,0 +1,18 @@
+body{
+    background-color:#9cAEa9;
+    text-align: center;
+}
+
+header, footer{
+    background-color:#788585;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #CCDaD1;
+}
+
+section{
+    border: thin solid black;
+}
