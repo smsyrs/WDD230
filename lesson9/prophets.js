@@ -11,7 +11,6 @@ fetch(requestURL)
     prophets.forEach(displayProphets);
   });
 
-const prophets = jsonObject['prophets'];
 
 function displayProphets(prophet) {
     // Create elements to add to the document

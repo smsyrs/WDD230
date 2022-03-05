@@ -1,65 +1,65 @@
-{
+"business" {
   "1": {
     "name": "Colados",
     "address": "15479 W McDowell Rd Suite #109, Goodyear, AZ 85338",
     "img": "",
     "website": "colados.com",
-    "phone number": "(623) 248-6187"
+    "phoneNumber": "(623) 248-6187"
   },
   "2": {
     "name": "3 Minute Express Car Wash",
     "address": "840 N Estrella Pkwy, Goodyear, AZ 85338",
     "img": "",
     "website": "3mincarwash.com",
-    "phone number": "(623) 466-8588"
+    "phoneNumber": "(623) 466-8588"
   },
   "3": {
     "name": "The Frozen Monkey",
     "address": "15661 W Roosevelt St #105, Goodyear, AZ 85338",
     "img": "",
     "website": "facebook.com/fromoshaveice",
-    "phone number": "(623) 440-1386"
+    "phoneNumber": "(623) 440-1386"
   },
   "4": {
     "name": "Filiberto's Mexican Food",
     "address": "15541 W Roosevelt St #107, Goodyear, AZ 85338",
     "img": "",
     "website": "filibertos.com",
-    "phone number": "(623) 328-8088"
+    "phoneNumber": "(623) 328-8088"
   },
   "5": {
     "name": "Zoyo Neighborhood Yogurt",
     "address": "15557 W Roosevelt St #102 Goodyear, AZ 85338",
     "img": "",
     "website": "zoyogurt.com",
-    "phone number": "(602) 438 1122"
+    "phoneNumber": "(602) 438 1122"
   },
   "6": {
     "name": "Karsten's Ace Hardware",
     "address": "610 N Estrella Pkwy, Goodyear, AZ 85338",
     "img": "",
     "website": "https://www.acehardware.com/store-details/14719",
-    "phone number": "(623) 932-1017"
+    "phoneNumber": "(623) 932-1017"
   },
   "7": {
     "name": "Wok Wei",
     "address": "15560 W Roosevelt St Ste B104, Goodyear, AZ 85338",
     "img": "",
     "website": "https://wokweitogo.com/",
-    "phone number": "(623) 882-8838"
+    "phoneNumber": "(623) 882-8838"
   },
   "8": {
     "name": "Teacup Boba",
     "address": "13000 W Indian School Rd A-14, Litchfield Park, AZ 85340",
     "img": "",
     "website": "http://teacupboba.com/",
-    "phone number": "(623) 236-3006"
+    "phoneNumber": "(623) 236-3006"
   },
   "9": {
     "name": "Sunrise Donuts",
     "address": "725 Estrella Pkwy, Goodyear, AZ 85338",
     "img": "",
     "website": "",
-    "phone number": "(623) 932 9010"
+    "phoneNumber": "(623) 932 9010"
   }
 }
