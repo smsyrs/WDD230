@@ -15,10 +15,12 @@ let buttonBool = true;
 
 card.addEventListener('click', ()=>{
     buttonBool = true;
+    readJson(buttonBool);
 })
 
 list.addEventListener('click', ()=>{
     buttonBool = false;
+    readJson(buttonBool);
 })
 
 function readJson(buttonBool){
@@ -29,7 +31,7 @@ function readJson(buttonBool){
         .then(function (jsonObject){
             console.table(jsonObject);
             const businesses = jsonObject['businesses'];
-            if (buttonBool = True){
+            if (buttonBool = true){
                 businesses.forEach(displayCards);
             }
             else{
@@ -54,9 +56,32 @@ function displayCards(business){
     number.textContent = business.phoneNumber;
 
     website.setAttribute("href", business.website);
-    website.textContent = business.website
+    website.textContent = business.website;
 
     card.appendChild(logo);
+    card.appendChild(address);
+    card.appendChild(number);
+    card.appendChild(website);
+    let main = document.querySelector('main');
+    main.appendChild(card);
+}
+
+function displayList(business){
+    let card = document.createElement('section');
+    let name = document.createElement('h3');
+    let logo = document.createElement('img');
+    let address = document.createElement('p');
+    let number = document.createElement("p");
+    let website = document.createElement('a');
+
+    name.textContent = business.name;
+    address.textContent = business.address;
+    number.textContent = business.phoneNumber;
+
+    website.setAttribute("href", business.website);
+    website.textContent = business.website;
+     
+    card.appendChild(name);
     card.appendChild(address);
     card.appendChild(number);
     card.appendChild(website);
