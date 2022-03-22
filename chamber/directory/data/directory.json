@@ -3,7 +3,7 @@
     {
       "name": "Colados",
       "address": "15479 W McDowell Rd Suite #109, Goodyear, AZ 85338",
-      "img": "colados.png",
+      "img": "data/colados.png",
       "website": "colados.com",
       "phoneNumber": "(623) 248-6187",
       "membership": "silver"
@@ -11,7 +11,7 @@
     {
       "name": "3 Minute Express Car Wash",
       "address": "840 N Estrella Pkwy, Goodyear, AZ 85338",
-      "img": "3minCarWash.png",
+      "img": "data/3minCarWash.png",
       "website": "3mincarwash.com",
       "phoneNumber": "(623) 466-8588",
       "membership": "gold"
@@ -27,7 +27,7 @@
     {
       "name": "Filiberto's Mexican Food",
       "address": "15541 W Roosevelt St #107, Goodyear, AZ 85338",
-      "img": "filibertos.png",
+      "img": "data/filibertos.png",
       "website": "filibertos.com",
       "phoneNumber": "(623) 328-8088",
       "membership":"bronze"
@@ -35,7 +35,7 @@
     {
       "name": "Zoyo Neighborhood Yogurt",
       "address": "15557 W Roosevelt St #102 Goodyear, AZ 85338",
-      "img": "zoyo.png",
+      "img": "data/zoyo.png",
       "website": "zoyogurt.com",
       "phoneNumber": "(602) 438 1122",
       "membership":"silver"
@@ -59,7 +59,7 @@
     {
       "name": "Teacup Boba",
       "address": "13000 W Indian School Rd A-14, Litchfield Park, AZ 85340",
-      "img": "teacup.png",
+      "img": "data/teacup.png",
       "website": "http://teacupboba.com/",
       "phoneNumber": "(623) 236-3006",
       "membership":"gold"

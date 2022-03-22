@@ -31,7 +31,7 @@ function readJson(buttonBool){
         .then(function (jsonObject){
             console.table(jsonObject);
             const businesses = jsonObject['businesses'];
-            if (buttonBool = true){
+            if (buttonBool == true){
                 businesses.forEach(displayCards);
             }
             else{
