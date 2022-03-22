@@ -8,11 +8,21 @@ fetch(api_url)
         displayInfo(city);
     })
 function displayInfo(city){
-    document.querySelector('#current-temp').textContent = city.main.temp;
+    const temp = city.main.temp;
+    document.querySelector('#current-temp').textContent = temp;
     const iconsrc= `https://openweathermap.org/img/w/${city.weather[0].icon}.png`;
     const desc = city.weather[0].description;
-    document.querySelector('#icon-src').textContent = iconsrc;
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
+    let windchillInfo = document.createElement("p");
+    let wind = city.wind.speed;
+    if ((temp <=50) && (wind < 3)){
+        windchillInfo.textContent = "Wind Chill: N/A";
+    }
+    else{
+        let windChillForm = 35.74+(0.6215*(wind)) - 35.75*(wind)**(0.16) + (0.4275*(temp)*((wind)**(0.16)));
+        windchillInfo.textContent = `Wind Chill: ${windChillForm.toFixed(2)} \u00B0F`;
+    }
+    document.querySelector("#weather").appendChild(windchillInfo);
 }
