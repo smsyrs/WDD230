@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join - Chamber of Commerce</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/large.css">
+    <link rel="stylesheet" href="css/joinBase.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content"> 
+        <header>
+            <div id="completeLogo">
+                <img id="logo" src="\wdd230\lesson3\img\chamber-of-commerce-logo.png">
+                <div id="name">
+                    <h1 id="name1">
+                    Meadow Valley
+                    </h1>
+                    <h2 id="name2">
+                        Chamber of Commerce
+                    </h2>
+                </div>
+            </div>
+            
+            
+            <h3 id="date"></h3>
+            <a href="#"><img src="\wdd230\chamber\img\facebook_logo_icon.png" alt="facebook logo" id="facebook"></a>
+            <a href="#"><img src="\wdd230\chamber\img\linkedin_logo_icon.png" alt="linkedin logo" id="linkedin"></a>
+            <nav>
+                <ul class="navigation">
+                    <li><a class="ham" href="#"></a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../discover/discover.html">Discover</a></li>
+                    <li><a href="../directory/directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="form">
+                <h3>Join Form</h3>
+                <p>Please fill out to the best of your ability. Once submitted please give us 5 business days to responed.</p>
+                <form action="thankyou.html">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title"><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="john.doe@gmail.com"><br>
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" id="number" name="number" required><br>
+                    <label for="business">Business Name</label>
+                    <input type="text" id="business" name="business" required><br>
+                    <label for="membership">Membership Level</label>
+                    <select id="membership" name="membership">
+                        <option value="Option">Select One</option>
+                        <option value="NP">NP Membership (for Non-Profits)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select><br>
+                    <label for="description">Business Description:</label>
+                    <textarea id="decription" name="description" size="50"></textarea><br>
+                    <input type="hidden" id="dateForm" name="dateForm">
+                    <input type="submit" id="submit" name="submit">
+                </form>
+            </div>
+            
+            <div id="memInfo">
+                <section id="np">
+                    <h4>NP Membership</h4>
+                    <p>This membership is specifically for Non-Profit Organizations. There is no fees assocaited with the level of membership</p>
+                </section>
+                <section id="bronzeMembership">
+                    <h4>Bronze Memberships</h4>
+                    <p>The bronze membership is the lowest tier offered by us and therefore the cheapest. This tier does not have access to as many of the benefits assocaited
+                        with the higher tiers (Silver and Gold) such as extra trainings, spotlights, and event discounts.
+                    </p>
+                    <p>Price Annually: $300</p>
+                </section>
+                <section id="silverMembership">
+                    <h4>Silver Membership</h4>
+                    <p>The silver membership is the most common tier that is offered. Benefits include extra trainings, spotlight, and event discounts (25%).</p>
+                    <p>Price Annually: $400</p>
+                </section>
+                <section id="goldMembership">
+                    <h4>Gold Membership</h4>
+                    <p>This is our top tier and you will be rewarded. We offer an additional 15 trainings a year for members of this tier, an additional spotlight, and half off all events.</p>
+                    <p>Price Annually: $500</p>
+                </section>
+            </div>
+            
+            
+        </div>
+    </main>
+    <footer>
+        <p id="footer1">&copy;<span id="year"></span> Meadow Valley Chamber of Commerce</p>
+        <p id="footer2"><strong>Samantha Jenkins</strong> WDD230 Project</p>
+        <p id="footer3"></p>
+    </footer></div>
+    <script src="../js/index.js"></script>
+    <script src="js/joinJS.js"></script>
+    
+</body>
+</html>
+

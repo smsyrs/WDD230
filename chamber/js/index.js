@@ -15,6 +15,6 @@ mainnav.classList.remove('responsive')};
 
 if (date.getDay() == 1 || date.getDate() ==5){
     banner = document.createElement("banner");
-    banner.textContent = "&#x1f91d Come Join us for the chamber meet and greet Wednesday at 7:00p.m";
+    banner.textContent = "🤝 Come Join us for the chamber meet and greet Wednesday at 7:00p.m";
     document.querySelector("header").appendChild(banner);
 }

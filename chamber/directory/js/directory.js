@@ -42,13 +42,14 @@ function readJson(buttonBool){
 
 function displayCards(business){
     let card = document.createElement('section');
-    let name = document.createElement('h3');
+    let nameValue = document.createElement('h3');
     let logo = document.createElement('img');
     let address = document.createElement('p');
     let number = document.createElement("p");
     let website = document.createElement('a');
 
-    name.textContent = business.name;
+    let name = business.name;
+    nameValue.textContent = name;
     logo.setAttribute('src', business.img)
     logo.setAttribute('alt', `${name} Logo`)
 

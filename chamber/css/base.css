@@ -29,6 +29,9 @@ header{
 #facebook{
     grid-column: 3/4;
 }
+#linkedin{
+    grid-column: 3/4;
+}
 
 #name{
     grid-column:2/3;
@@ -106,4 +109,8 @@ h4{
 
 #spot3{
     display:none;
+}
+
+#discover img{
+    max-width: 100%;
 }
