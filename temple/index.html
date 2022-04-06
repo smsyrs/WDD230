@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Temple Inn and Suites</title>
+    <link rel="stylesheet" href="css/temple_base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Temple Inn and Suites</h1>
+        <!-- Logo -->
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" class="ham"></a></li>
+                <li><a href="index.html"> Home Page</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="service.html">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Banner: Spring Break Sale! -->
+        <div id="div_home_reservation">
+            <h3>
+                Reserve Now!
+            </h3>
+            <form id="home_reservation">
+                <label for="start_date">Start Date: </label>
+                <input type='date' id="start_date" name="start_date" required>
+                <label for="location">Location (Temple):</label>
+                <input type ="text" id="location" name="location" required><br>
+                <label for="end_date">End Date: </label>
+                <input type="date" id="end_date" name="end_date" required>
+                <input type="submit" id="submit" name="submit">
+            </form>
+        </div>
+        <div id="div_home_temples">
+            <h3>Temples</h3>
+            <!-- Temple Image: Washington DC Temple -->
+            <p>After being under construction for the last several years, the Washington DC temple will be open to the public 
+                again starting in late April. This temple is the largest temple located on the East Coast of the United States of 
+                America and stands tall among the monuments that surrond the history rich area. Find out more about this regal building
+                at <a href="churchofjesuschrist.org" target="_blank">ChurchofJesusChrist.org</a> and <a href="temple.html">Our Temple Page</a>
+            </p>
+            <div id="weather">
+                <h4>Weather in <span id="weather_loc"></span>:</h4>
+                <section id="current">  
+                    <h5>Current:</h5>
+                    <p>Temperature: <span id="current_temp"></span>&deg;F</p>
+                    <img src="#" alt="#" id="current_icon" />
+                    <figcaption></figcaption>
+                </section>
+                <section id="3day">
+                    <h5>3 Day Forecast:</h5>
+                </section>
+                <section id="7day">
+                    <h5>7 Day Forecast: </h5>
+                </section>
+            </div>   
+        </div>
+        <script src="js/temple.js"></script>  
+    </main>
+    <footer>
+        <p>Samantha Jenkins WDD230</p>
+        <p>Temple Inn & Suites -- &copy;<span id="year"></span></p>
+        <p>(123)-456-7890</p>
+        <p>4840 Mongomery Ave, <!--Edit Address--></p>
+        <img src="img/facebook_logo_icon.png" href="facebook.com" alt="facebook icon">
+    </footer>
+    
+</body>
+</html>
