@@ -28,4 +28,17 @@
     img{
         max-width: 50%;
     }
+
+    #services{
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    #specialized{
+        grid-column: 1/2;
+    }
+    #amenities{
+        grid-column: 2/3;
+    }
 }

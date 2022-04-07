@@ -109,6 +109,7 @@ h6{
 }
 label{
     padding:3px;
+    font-family: "Cormorant Garamond", serif;
 }
 #start_date{
     grid-row: 1/2;
@@ -147,4 +148,9 @@ footer a{
 
 img{
     max-width: 75%;
+}
+
+#receptions,
+#missionary{
+    background-color: #EB7070;
 }
