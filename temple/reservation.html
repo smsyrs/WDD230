@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservations - Temple Inn and Suites</title>
     <link rel="stylesheet" href="css/temple_base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Temple Inn and Suites</h1>
-        <!-- Logo -->
+        <img id="logo" src="img/temple-logo.jpeg" alt="Temple Inn and Suites">
         <nav>
             <ul class="navigation">
                 <li><a href="#" class="ham"></a></li>
@@ -22,15 +23,72 @@
         </nav>
     </header>
     <main>
-        <script src="js/temple.js"></script>
+        <h3>Reservations:</h3>
+        <form id="reservation" method="get" action="thank_you.html" name="reservation">
+            <label>
+                Full Name:
+                <input type="text" name="name" id="name" required><br>
+            </label>
+            <label>
+                Start Date:
+                <input type="date" name="start_date" id="start_date" required><br>
+            </label>
+            <label>
+                End Date:
+                <input type="date" name="res_end_date" id="res_end_date" required><br>
+            </label>
+            <label>
+                Location:
+                <input type="text" name="res_location" id="res_location" required><br>
+            </label>
+            <label>
+                Number of people:
+                <input type="number" name="res_people" id="res_people" required><br>
+            </label>
+            <label>
+                Number of rooms desired:
+                <input type="number" name="res_rooms" id="res_rooms" required><br>
+            </label>
+            <label>
+                Type of Rooms:
+                <select>
+                    <option value="None">Select one</option>
+                    <option value="Queen">Single Queen ($49.00/night)</option>
+                    <option value="DoubleQueen">Double Queen ($75.00/night)</option>
+                    <option value="suiteQueen">Double Queen with Suite ($90.00/night)</option>
+                    <option value="King">Single King ($60.00/night)</option>
+                    <option value="suiteKing">Single King with Suite ($100.00/night)</option>
+                </select>
+            </label><br>
+            <label>
+                Phone Number:
+                <input type="tel" id="res_phone" name="res_phone" required><br>
+            </label>
+            <label>
+                Email:
+                <input type="email" id="res_email" name="res_email" required><br>
+            </label>
+            <label>
+                Home State or Country:
+                <input type="text" id="res_home" name="res_home"><br>
+            </label>
+            <label>
+                Comments or accommodations:
+                <textarea id="comments" name="comments" size="200"></textarea>
+            </label><br>
+            <input type="submit" id="res_submit" name="res_submit">
+
+        </form>
     </main>
     <footer>
         <p>Samantha Jenkins WDD230</p>
         <p>Temple Inn & Suites -- &copy;<span id="year"></span></p>
         <p>(123)-456-7890</p>
-        <p>4840 Mongomery Ave, <!--Edit Address--></p>
+        <a href="https://goo.gl/maps/uhMFdwHWGgqgmL4u7">4840 Montgomery Ln #320, Bethesda, MD 20814</a><br>
+        <a href="contact_us.html">Contact Us here!</a><br>
         <img src="img/facebook_logo_icon.png" href="facebook.com" alt="facebook icon">
     </footer>
-    
+    <script src="js/base.js"></script>
+    <script src="js/reservation.js"></script>
 </body>
 </html

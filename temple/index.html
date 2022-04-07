@@ -11,7 +11,7 @@
 <body>
     <header>
         <h1>Temple Inn and Suites</h1>
-        <!-- Logo -->
+        <img id="logo" src="img/temple-logo.jpeg" alt="Temple Inn and Suites">
         <nav>
             <ul class="navigation">
                 <li><a href="#" class="ham"></a></li>
@@ -28,23 +28,35 @@
             <h3>
                 Reserve Now!
             </h3>
-            <form id="home_reservation">
-                <label for="start_date">Start Date: </label>
-                <input type='date' id="start_date" name="start_date" required>
-                <label for="location">Location (Temple):</label>
-                <input type ="text" id="location" name="location" required><br>
-                <label for="end_date">End Date: </label>
-                <input type="date" id="end_date" name="end_date" required>
-                <input type="submit" id="submit" name="submit">
+            <form id="home_reservation" action="reservation.html" name="home_reservation" method="get">
+                <label for="start_date">Start Date: 
+                    <input type='date' id="start_date" name="start_date" required>
+                </label>
+                
+                <label for="location">Location (Temple):
+                    <input type ="text" id="location" name="location"  required><br>
+                </label>
+                
+                <label for="end_date">End Date: 
+                    <input type="date" id="end_date" name="end_date" required>
+                </label>
+                <label>
+                    <script src="js/reservation.js"></script>
+                    <input type="submit" id="home_submit" name="home_submit">
+                </label>
+                
             </form>
         </div>
         <div id="div_home_temples">
-            <h3>Temples</h3>
-            <!-- Temple Image: Washington DC Temple -->
-            <p>After being under construction for the last several years, the Washington DC temple will be open to the public 
-                again starting in late April. This temple is the largest temple located on the East Coast of the United States of 
-                America and stands tall among the monuments that surrond the history rich area. Find out more about this regal building
-                at <a href="churchofjesuschrist.org" target="_blank">ChurchofJesusChrist.org</a> and <a href="temple.html">Our Temple Page</a>
+            <h3 id="">Temples</h3>
+            <img id="home_temple" src="img/fort_collins_temple.jpeg" alt="Picture of the Fort Collins Colorado Temple">
+            <p>The Fort Collins Colorado Temple is located in beautiful Northern Colorado about 50 miles south of the Wyoming capital of Cheyenne. It is also located
+                only a couple miles from Interstate 25 and stands tall over the homes and buildings in Fort Collins. Fort Collins has a beautiful downtown area, which is 
+                affectionally called "Old Town", and additionally is home to the Colorado State Univeristy Rams. Old Town is one of the inspirations for 
+                Main Street Disney Land. The Fort Collins Temple was dedicated in 2016 after its groundbreaking in 2013 and announcement in 2011.
+                It is also among 2 fully constructed temples in Colorado with the Grand Junction Colorado Temple currently under 
+                construction. Find out more about this regal building
+                at <a href="https://www.churchofjesuschrist.org" target="_blank">ChurchofJesusChrist.org</a> and <a href="temple.html">Our Temple Page</a>
             </p>
             <div id="weather">
                 <h4>Weather in <span id="weather_loc"></span>:</h4>
@@ -57,20 +69,23 @@
                 <section id="3day">
                     <h5>3 Day Forecast:</h5>
                 </section>
-                <section id="7day">
+                <section id="sevenDay">
                     <h5>7 Day Forecast: </h5>
                 </section>
             </div>   
         </div>
-        <script src="js/temple.js"></script>  
+         
     </main>
     <footer>
         <p>Samantha Jenkins WDD230</p>
         <p>Temple Inn & Suites -- &copy;<span id="year"></span></p>
         <p>(123)-456-7890</p>
-        <p>4840 Mongomery Ave, <!--Edit Address--></p>
+        <a href="https://goo.gl/maps/uhMFdwHWGgqgmL4u7">4840 Montgomery Ln #320, Bethesda, MD 20814</a><br>
+        <a href="contact_us.html">Contact Us here!</a><br>
         <img src="img/facebook_logo_icon.png" href="facebook.com" alt="facebook icon">
+        
     </footer>
-    
+    <script src="js/base.js"></script>
+    <script src="js/home.js"></script> 
 </body>
 </html>
