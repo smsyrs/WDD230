@@ -7,7 +7,7 @@
             "phone": "(970)-797-4630",
             "services": "No clothing rental, No cafeteria available, No patron Housing available, Distrubtion center nearby",
             "closures": "07/04/2022, 08/15-29/2022, 11/23/2022 (Limited Operations), 11/24/2022, 12/24/2022, 12/25/2022, 12/31/2022 (Limited Operations)",
-            "img": "../img/fort_collins_temple.jpeg"
+            "img": "img/fort_collins_temple.jpeg"
     },
     {
         "name": "Portland Oregon Temple",
@@ -16,7 +16,7 @@
             "phone": "(503)-639-7066",
             "services": "Clothing rental, No cafeteria available, No patron Housing available, Distrubtion center nearby",
             "closures": "07/04/2022, 07/18-15/2022, 11/23/2022 (Limited Operations), 11/24/2022, 12/24/2022, 12/25/2022, 12/31/2022",
-            "img": "../img/portland_temple.jpeg"
+            "img": "img/portland_temple.jpeg"
     },
     {
         "name": "Mount Timpangos Utah Temple",
@@ -25,7 +25,7 @@
             "phone": "(801)-763-4540",
             "services": "Clothing rental, No cafeteria available, No patron Housing available, Distrubtion center nearby",
             "closures": "05/09-23/2022, 10/01/2022, 11/07-22/2022, 11/23-24/2022, 12/24/2022, 12/31/2022",
-            "img": "../img/mount_timi_temple.jpeg"
+            "img": "img/mount_timi_temple.jpeg"
     },
     {
         "name": "Seattle Washington Temple",
@@ -34,7 +34,7 @@
             "phone": "(425)-643-5144",
             "services": "Clothing rental, No cafeteria available, No patron Housing available, Distrubtion center nearby",
             "closures": "07/04/2022, 08/08-22/2022, 11/23/2022, 11/24/2022, 12/24-25/2022, 12/31/2022, 01/01/2022",
-            "img": "../img/seattle_temple.jpeg"
+            "img": "img/seattle_temple.jpeg"
     }
     ]
 }

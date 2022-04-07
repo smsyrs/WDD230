@@ -1,0 +1,6 @@
+@media only screen and (min-width:64em){
+    h1{
+        display: grid;
+        color: #FFFFFF;
+    }
+}
