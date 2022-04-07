@@ -41,4 +41,18 @@
     #amenities{
         grid-column: 2/3;
     }
+
+    #home_temple{
+        grid-column: 1/2;
+        grid-row:1/3;
+        padding-top: 5px;
+    }
+
+    #temple_content{
+        grid-column: 2/3;
+    }
+
+    #weather{
+        grid-column: 1/3;
+    }
 }
