@@ -42,6 +42,11 @@
         grid-column: 2/3;
     }
 
+    #div_home_temples{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
     #home_temple{
         grid-column: 1/2;
         grid-row:1/3;
