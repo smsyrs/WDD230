@@ -7,6 +7,7 @@
     <title>Home - Temple Inn and Suites</title>
     <link rel="stylesheet" href="css/temple_base.css">
     <link rel="stylesheet" href="css/temple_medium.css">
+    <link rel="stylesheet" href="css/temple_large.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,7 +17,7 @@
         <nav>
             <ul class="navigation">
                 <li><a href="#" class="ham"></a></li>
-                <li><a href="index.html"> Home Page</a></li>
+                <li><a href="index.html"> Home</a></li>
                 <li><a href="temple.html">Temples</a></li>
                 <li><a href="reservation.html">Reservations</a></li>
                 <li><a href="service.html">Service</a></li>
@@ -43,7 +44,7 @@
                 </label>
                 <label>
                     <script src="js/reservation.js"></script>
-                    <input type="submit" id="home_submit" name="home_submit">
+                    <input type="submit" id="home_submit" name="home_submit" value="Submit">
                 </label>
                 
             </form>
@@ -60,18 +61,23 @@
                 at <a href="https://www.churchofjesuschrist.org" target="_blank">ChurchofJesusChrist.org</a> and <a href="temple.html">Our Temple Page</a>
             </p>
             <div id="weather">
-                <h4>Weather in <span id="weather_loc"></span>:</h4>
+                <h4>Weather in Fort Collins:</h4>
                 <section id="current">  
                     <h5>Current:</h5>
                     <p>Temperature: <span id="current_temp"></span>&deg;F</p>
+                    <p>Humidity: <span id="current_hum"></span></p>
                     <img src="#" alt="#" id="current_icon" />
                     <figcaption></figcaption>
                 </section>
                 <section id="3day">
                     <h5>3 Day Forecast:</h5>
+                        <p>Today: <span id="day0Temp"></span>&deg;F</p>
+                        <p>Tomorrow: <span id="day1Temp"></span>&deg;F</p>
+                        <p>Day after Tomorrow: <span id="day2Temp"></span>&deg;F</p>
                 </section>
                 <section id="sevenDay">
                     <h5>7 Day Forecast: </h5>
+
                 </section>
             </div>   
         </div>

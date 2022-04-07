@@ -3,7 +3,7 @@ var hashParams = window.location.search.substr(1).split('&'); // substr(1) to re
 for(var i = 0; i < hashParams.length; i++){
     var p = hashParams[i].split('=');
     if (p[1].includes("+")){
-        p[1].replace("%2B", "%20");
+        p[1].replace("+", " ");
     }
     document.getElementById(p[0]).value = decodeURIComponent(p[1]);;
 }
