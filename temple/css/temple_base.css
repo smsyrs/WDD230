@@ -144,6 +144,7 @@ footer a{
 #weather{
     background-color: #C5BAAF;
     margin:5px;
+    padding-bottom:5px;
 }
 
 img{
@@ -153,4 +154,9 @@ img{
 #receptions,
 #missionary{
     background-color: #EB7070;
+}
+
+#threeday,
+#current{
+    border:1px solid #424B54;
 }
